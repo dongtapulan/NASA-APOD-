@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Space Dust Canvas -->
+    <canvas id="space-dust"></canvas>
+
+    <div class="container">
+        <h1>🌌 Astronomy Picture of the Day</h1>
+
+        <div id="apod-card">
+            <p>Loading space wonders...</p>
+        </div>
+
+        <!-- Download Button -->
+        <button id="download-btn" type="button">💾 Download Image</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/space-dust.js') }}"></script>
+</body>
+</html>
