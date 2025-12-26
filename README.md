@@ -6,7 +6,7 @@ Features
 
 - Displays today's APOD from NASA
 - Shows title, date, and description
-- **Download button for images
+- Download button for images
 - Space-themed UI with dark background and floating stars
 - Fully built with Flask, HTML, CSS, and JavaScript**
 
@@ -37,13 +37,13 @@ Copy code
 source venv/bin/activate
 Install dependencies:
 pip install -r requirements.txt
+
 Add your NASA API key in config.py:
 
 NASA_API_KEY = "YOUR_PERSONAL_KEY"
 NASA_APOD_URL = "https://api.nasa.gov/planetary/apod"
 
 Run the App
-bash
 Copy code : python app.py
 Then open your browser and go to:
 Copy code: http://127.0.0.1:5000/
